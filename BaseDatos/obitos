@@ -1,0 +1,33 @@
+CREATE DATABASE IF NOT EXISTS cocheriaLosAndes;
+
+#selecciono base de datos
+USE cocheriaLosAndes;
+
+#creo tabla obituarios
+
+DROP TABLE IF EXISTS obituarios;
+
+ CREATE TABLE obituarios(
+  id INT NOT NULL AUTO_INCREMENT,
+  nombre VARCHAR(100) NULL,
+  apellido VARCHAR(100) NULL,
+  fecha DATE,
+  imagen VARCHAR(100) NULL,
+  PRIMARY KEY (id)
+  )ENGINE=InnoDB DEFAULT CHARSET=utf8MB4;
+
+LOCK TABLES obituarios WRITE;
+
+INSERT INTO obituarios VALUES(
+
+
+
+)
+
+CREATE TABLE `cocheria`.`obituarios` (
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `nombre` VARCHAR(100) NULL,
+  `apellido` VARCHAR(100) NULL,
+  `fecha` DATE NULL,
+  `imagen` VARCHAR(100) NULL,
+  PRIMARY KEY (`id`));

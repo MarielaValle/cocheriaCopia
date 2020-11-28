@@ -1,0 +1,561 @@
+*{
+  box-sizing: border-box;
+  
+}
+
+.azul{
+  
+  color: #0E476C
+  
+}
+.celeste{
+  
+  color: #125988
+  
+}
+
+.negro{
+  
+  color: #333333
+  
+}
+
+.nube{
+  
+  color:#FAFBFC
+  
+}
+
+.blanco{
+  color: #FFFFFF
+  
+  
+}
+
+
+.celesteClaro{
+  
+  color: #D5E5F2
+  
+}
+
+.negro{
+  color:#262014
+  
+  
+}
+
+.rosadocasiBlanco{
+  
+  color: #F2E2CE
+  
+}
+
+.marron{
+  
+  color:#735E4C
+  
+}
+
+
+.beige{
+  color:#aaaaaa;
+  
+}
+
+.ocre{
+  
+  
+  color:#d98e04
+  
+}
+
+
+
+
+body{
+  
+  margin: auto;
+  
+ 
+  background-color: #FAFBFC;
+  
+  color: #333333;
+  
+  font-family: sans-serif;
+  
+}   
+
+.menu ul li {
+  
+  
+  display:inline-block;
+  
+  padding-left: 10px;
+  padding-top: 5px;
+  
+  
+  
+}
+
+.menu2 ul li {
+  
+  
+  display:inline-block;
+  
+  padding-left: 10px;
+  padding-top: 5px;
+  
+  
+  
+}
+
+ul li a{
+  
+  /* text-transform: uppercase;*/
+  font-family:'Lobster',cursive;
+  color:#0B0D0C;
+  font-size: 0.8em;
+  
+}
+
+
+
+.navbar{
+  display:flex;
+  justify-content: space-around;
+  background-color:#333333 ;
+  /* background-color:#262014*/
+  /*background-color: #D5E5F2;*/
+ /* background-color:#125988*/
+   
+  
+}
+
+.logo{
+  
+  width: 10em;
+  
+  border-radius: 3px;
+  
+  
+}
+
+
+.principal{
+  
+  position:fixed;
+  top:0px;
+  width:100%;
+  Z-index:30
+  
+}
+
+.menu{
+  padding-top: 20px;
+  padding-right: 150px;
+  display:flex;
+  justify-content: space-around;
+  border-bottom: solid;
+  border-color:#aaaaaa;
+  background-color:#FAFBFC;
+}
+
+.menu i{
+  
+  margin-right: 3px;
+  color:#D9A404;
+ /* color:#125988;*/
+  /*color:#D9A404;*/
+  font-size: 1.4em;
+}
+
+
+
+
+.navbar-toggler{
+  background-color:#D5E5F2;
+}
+
+
+.navbar-dark{
+  background-color:#262014;
+}
+
+.fas-fa-bars {
+  color:black
+}
+/*-----------menu 2--------------------*/
+
+
+
+.menu2{
+  
+  background-color:#FAFBFC;
+  border-bottom: solid;
+  border-color: #aaaaaa
+}
+.menu2 i{
+  
+  margin-right: 3px;
+  
+  
+  /*color:#730220 ;*/
+  color:#D9A404;
+  
+}
+
+.menu2 a{
+  
+  /* text-transform: uppercase;*/
+  font-family:'Lobster',cursive;
+  font-size: 0.6em;
+  color:#333333;
+}
+/*------fin menu 2----------------*/
+
+
+.borderSearch{
+  border-radius: 5px;
+  /*border-color:#7A7F70 ;*/
+  /* border-color:#4ED94A;*/
+  background-color:#FAFBFC ;
+  border-color:#FFFFFF;;
+  color:#262014;;
+  
+  width: 90%;
+}
+
+.searchButton{
+  margin-top: 3px;
+  border-radius:5px ;
+  
+  background-color:#FAFBFC;
+  
+  border-color: #FFFFFF;
+  color:#262014;
+  
+  
+  
+}
+
+form{
+  
+  margin-top: 15px;
+}
+
+.select{
+  
+  margin-bottom: 20px;
+  margin-top: 10px;
+  padding:10px;
+  
+}
+
+.searchButton:hover{
+  
+  background-color:#125988;
+  color:#FFFFFF;
+}
+
+.searchButton:focus{
+  
+  background-color:#FAFBFC;
+  color: #D9A404;
+  
+}
+
+
+/*------------Fin header----
+Negro #222026
+Amarillo #D9A404
+Dorado #D98E04
+Ocre #735010
+
+
+
+----*/
+
+
+
+
+/*--------------Bienvenido y botón whatApp- -----------------------*/
+
+
+.bienvenido{
+  
+  color:#FFFFFF;
+  font-family: 'Lobster Two',cursive;
+  font-size: 1.2em;
+  
+}
+
+.contacto span{
+  background-color: white;
+  border-radius: 10px;
+  padding: 3px;
+  
+}
+
+.contacto{
+  
+  
+  position: fixed;
+  right: 80px;
+  top:180px;
+  font-size: 1.5em;
+  z-index: 10;
+  
+}
+
+
+/*--------------------------------------*/
+
+
+
+.fa-whatsapp{
+  
+  color:#2BCC1A
+}
+
+.fa-share-alt{
+  
+  color:#034001
+}
+
+
+
+
+.footer{
+  
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background-color: #333333
+}
+
+.footer h3{
+  
+  font-size: 1em;
+  color:#FFFFFF;
+  
+}
+
+.footer p{
+  font-size: 0.6em ;
+  color:#FFFFFF;
+  
+}
+.fa-map-marked-alt{
+  
+  color:#FAFBFC;
+  background-color:#0E476C;
+  padding: 5px;
+  margin-top:10px
+}
+.fa-map-marked{
+  color:#FAFBFC;
+  background-color:#0E476C;
+  padding: 5px;
+  margin-top:10px
+  
+}
+
+.fa-facebook{
+  
+  margin-top:10px;
+  
+  background-color: #FFFFFF;
+  font-size: 1.3em;
+  padding:1px;
+  border-radius: 3px;
+}
+
+.fa-facebook-messenger{
+  background-color: #FFFFFF;
+  font-size: 1.3em;
+  padding:1px;
+  border-radius: 3px;
+  margin-top:5px;
+}
+
+.fa-whatsapp-square{
+  
+  color:#2BCC1A;
+  background-color: #FFFFFF;
+  font-size: 1.3em;
+  padding:1px;
+  border-radius: 3px;
+  margin-top:5px;
+}
+
+.prepagaF{
+  margin-top:50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:#FAFBFC;
+  padding: 10px;
+  border:solid;
+  border-color:#aaaaaa;
+}
+
+.prepagaF img{
+  
+  width: 10%;
+  border-radius: 5px;
+}
+
+.prepagaF span{
+  
+  text-align: center;
+  color:#455918;
+  font-family:'Zilla Slab', serif ;
+  /*font-family: 'lobster two', cursive;*/
+  
+}
+
+@media(max-width: 705px){
+  
+  
+  
+  .contacto{
+    
+    
+    right: 10px;
+    
+    
+  }
+  
+  
+}
+
+
+
+
+
+
+
+@media(max-width:596px){
+  
+  .contacto{
+    top:250px
+  }
+  
+}
+
+@media(max-width:591px){
+  
+  .menu{
+    display:none
+  }
+  
+  
+}
+
+
+@media(min-width:591px){
+  
+  .menu2{
+    
+    display:none
+  }
+  
+  
+}
+
+
+
+
+
+
+@media(max-width:650px){
+  
+  .propaganda{
+    
+    position:relative;
+    top:60px;
+    
+    flex-direction:column;
+    
+    
+    align-items: center;
+    
+    justify-content: space-between;
+    
+    
+  }
+  #prepaga{
+    
+    background-color:#D8E6F2;
+    color:#0D0D0D;
+    
+    margin-top:5px;
+  }
+  
+  #ir{
+    background-color:#758C20;
+    color:#FFFFFF;
+  }
+}
+
+@media(max-width: 429px){
+  
+  
+  
+  
+  .navbar{
+    
+    font-size: 0.8em;
+    
+  }
+  ul li{
+    padding-left:0px
+  }
+  .fa-store{
+    margin-left: 0px;
+  }
+  
+  .borderSearch{
+    
+    width: 80%;
+  }
+  
+  
+  ul li {
+    
+    
+    display:block;
+    
+    padding-left: 0px;
+    
+  }
+  
+  
+  
+  .footer{
+    
+    flex-direction: column;
+    
+  }
+  .footer div{
+    
+    margin-top:25px
+  }
+  
+  
+  
+  .propaganda #prepaga{
+    font-size:0.8em
+  }
+  .propaganda #ir{
+    font-size:0.8em
+  }
+  
+  
+}
+
+
+
+
+

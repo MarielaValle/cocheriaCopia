@@ -1,0 +1,216 @@
+<%- include("partials/head")%>
+
+<%- include("partials/header")%>
+
+<!---------------------------------------------->
+
+
+<div class="container">
+
+    <div class="row" id="margen-top">
+        <!-------------------------------------->
+
+        <div class="col-12">
+
+            <h3>Tipos de funerales</h3>
+
+            <p>
+                Cada familia es diferente, y no todas las personas desean el mismo tipo de funeral.
+
+                Las tradiciones religiosas y culturales, como los costos y preferencias personales influyen sobre las
+                prácticas funerarias.
+
+                Estos factores ayudan a determinar si el funeral será:
+
+                elaborado o simple,
+                público o privado,
+                religioso o laico,
+                y lugar en que se llevará a cabo.
+
+
+                También influye si el funeral se realizará de cuerpo presente, si habrá velatorio ; y por
+                último, si los restos serán enterrados o cremados.
+
+            </p>
+
+        </div>
+
+
+
+
+        <div class="col-12  col-md-6">
+            <h3>
+                Servicio completo de funeral -"Tradicional"-
+
+            </h3>
+            <p>
+                Este tipo de funeral incluye:
+
+                un velatorio o visitación y,
+                un servicio de funeral formal,
+                el uso de una carroza o coche fúnebre para transportar el cuerpo al lugar del funeral y al cementerio,
+                como así también el entierro, disposición o cremación de los restos.
+
+
+
+                En general, este es el tipo de funeral más costoso.
+
+                Además de los cargos por los servicios básicos de la funeraria, este tipo de funeral suele incluir:
+
+                el costo del embalsamamiento y vestimenta del cuerpo,
+                el alquiler de una sala de la funeraria para el velatorio o servicio,
+                y el uso de vehículos para el transporte de la familia en caso que no utilicen sus propios automóviles.
+
+
+                También deben calcularse los costos del ataúd, la parcela o cripta en el cementerio y otros artículos y
+                servicios fúnebres.
+            </p>
+
+
+
+        </div>
+
+
+        <div class="col-12 col-md-6">
+            <h3>
+                Entierro directo
+
+            </h3>
+            <p>
+                En este tipo de funeral, el cuerpo se entierra breve tiempo después del fallecimiento, generalmente
+                dentro un contenedor simple.
+
+                No hay servicio de velatorio o visitación y por lo tanto no es necesario embalsamar los restos.
+
+                Se puede realizar un servicio conmemorativo al pie de la tumba o más tarde.
+
+                Por lo general, el entierro directo cuesta menos que el servicio completo de un funeral “tradicional”.
+
+                Los costos incluyen:
+
+                los cargos por los servicios básicos de la funeraria,
+                el transporte y el cuidado del cuerpo,
+                la compra de un ataúd o contenedor para la disposición final de los restos,
+                y una parcela o cripta en el cementerio.
+
+            </p>
+        </div>
+
+        <div class="col-12 col-md-6">
+            <h3>
+                Cremación directa
+            </h3>
+
+            <p>
+                En esta clase de funeral, el cuerpo se crema o incinera sin embalsamar breve tiempo después del
+                fallecimiento.
+
+                Los restos incinerados, llamados cenizas, se colocan dentro de una urna u otro contenedor.
+
+                No se realiza ni velatorio ni visitación.
+
+                Las cenizas se pueden:
+
+                guardar en la casa de algún familiar,
+                enterrar o colocar dentro de una cripta o nicho en un cementerio,
+                o se pueden enterrar o esparcir en un lugar especialmente escogido por el fallecido o sus allegados.
+                Por lo general, la cremación directa cuesta menos que el servicio completo de funeral “tradicional”.
+
+                El costo incluye:
+
+                los cargos por los servicios básicos de la funeraria,
+                el transporte y cuidado del cuerpo,
+                El cargo por la cremación puede estar incluido en el servicio o, si la funeraria no tiene su propio
+                crematorio, se puede sumar como un cargo adicional,
+                un cargo por la urna u otro contenedor para colocar los restos incinerados.
+                El costo de la parcela o la cripta en el cementerio se incluye únicamente cuando los restos se
+                entierran o disponen de alguna otra manera en un cementerio.
+            </p>
+        </div>
+
+
+
+        <div class="col-12">
+
+            <h3>
+                Cobertura
+            </h3>
+
+            <p>
+                COCHERIA LOS ANDES continúa diversificándose con sus aliados en el mercado local, con el respaldo de
+                brindar asesoramiento y servicio fúnebre inmediato, acompañando a los familiares y demás personas en el
+                proceso de aflicción.
+
+                Actualmente confían en nosotros “COOPERATIVA ELECTRICA DE GODOY CRUZ” desde 1990; y más de 50 mutuales y
+                obras sociales de la provincia y a nivel nacional. Siendo su firma, de excelencia y prestigio.
+
+
+            </p>
+
+
+            <h3>
+                Prestadores directos de servicios de sepelio sin cargo:
+            </h3>
+
+            <ul type='square'>
+
+                <li>Cooperativa Eléctrica de Godoy Cruz,</li>
+
+                <li> Andes Pre paga (servicios de sepelio)</li>
+
+                <li>Prevenir</li>
+
+                <li>Supervielle (servicios para jubilados y pensionados)</li>
+
+                <li>
+                    Pami: subsidio de fallecimiento a cuenta del servicio fúnebre que elijas como parte de pago.
+                </li>
+
+            </ul>
+
+
+   
+   
+        </div>
+
+
+        <div class="col-12 col-md-6">
+
+            <h3>Mutuales Nacionales</h3>
+    
+            <% for (let i=0; i < mutualesNacionales.length; i++){  %>
+            <ul type="circle">
+                <li><%= mutualesNacionales[i]%></li>
+            </ul>
+            <% } %>
+    
+    
+          </div>
+    
+    
+  
+        <div class="col-12 col-md-6">
+            <h3>Mutuales Provinciales</h3>
+
+            <% for (let i=0; i < mutualesProvinciales.length; i++){  %>
+            <ul type="circle">
+                <li><%= mutualesProvinciales[i]%></li>
+            </ul>
+            <% } %>
+    
+
+
+
+        </div>
+
+     
+        <!---------------------------------------->
+    </div>
+
+
+</div>
+
+
+
+<!----------------------------------------->
+<%- include("partials/footer")%>

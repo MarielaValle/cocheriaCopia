@@ -1,0 +1,12 @@
+
+
+Día uno -> 8hs
+dia dos ->8hs
+Día tres ->4 hs (instalo express y hago página acercaDe)
+día cuatro -> 4 hs  (instalo servicios y completo y hago back de galería y preparo carpeta de fotos galeria y de fotos obituarios)
+día cinco -> 4 hs  (hago vista galería, y obituarios desde cero, con base de datos e instalción sequelize)
+
+
+https://i.imgur.com/YDjnz5V.jpg
+
+imágen: de home, familia

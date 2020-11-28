@@ -1,0 +1,63 @@
+<%- include('partials/head')%>
+<%- include('partials/header')%>
+
+<!------------------------------------------>
+
+
+<div class="container">
+    <div class="row" id="margen-topG">
+        <!-------------------------------------------->
+
+
+        <div class="col-12"
+            <h3>Obituarios</h3>
+
+        </div>
+        <% obituarios.forEach(obito=> { %>
+        <div class=" col-12 col-sm-6 col-lg-3">
+              
+            <a href="/obituarios/detalle/<%=obito.id%>">
+                <section class="galeria-box">
+                    <figure class="fotoG">
+
+                        <img src="assets/obitos/<%=obito.imagen%>" alt="fotos obituarios">
+
+
+                    </figure>
+
+
+
+
+                </section>
+
+            </a>
+
+        </div>
+
+
+        <% }); %>
+
+
+
+
+
+
+
+
+
+
+
+        <!------------------------------------------------>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+<!-------------------------------------------->
+
+<%- include('partials/footer')%>
