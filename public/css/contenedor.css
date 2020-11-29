@@ -1,235 +1,329 @@
 *{
-    box-sizing: border-box;
-    
-  }
+  box-sizing: border-box;
+  
+}
 
-  .titulo {
+.titulo {
   
-    position: relative;
-    bottom:250px;
-    text-align: center;
-    
-    z-index: 20px;
-    font-weight :1000; 
-    
-    
-  }
-  .titulo mark{
-    color:#FFFFFF;
-    background-color:rgba(170, 170, 170,0.3) ;
-    /* background-color: rgb(115, 80, 16,0.3)*/
-  }
+  position: relative;
+  bottom:250px;
+  text-align: center;
   
-  .banner{
-    margin-top:160px;
-    width: 100%;
-  }
+  z-index: 20px;
+  font-weight :1000; 
   
   
+}
+.titulo mark{
+  color:#FFFFFF;
+  background-color:rgba(170, 170, 170,0.3) ;
+  /* background-color: rgb(115, 80, 16,0.3)*/
+}
+
+.banner{
+  margin-top:160px;
+  width: 100%;
+}
 
 
-  /*----------Propaganda PrePaga----------------------------*/
+
+
+/*----------Propaganda PrePaga----------------------------*/
 
 .propaganda{
   
-    position:relative;
-    bottom:60px;
-    Z-index:20px;
-    display:flex;
-    
-    justify-content: space-around;
-    
-  }
+  position:relative;
+  bottom:60px;
+  Z-index:20px;
+  display:flex;
   
-  #prepaga{
-    
-    background-color:#FAFBFC;
-    color:#333333;
-  }
+  justify-content: space-around;
   
-  #ir{
-    
-    background-color: #D5E5F2;
-    color:#262014;
-  }
-  
-  #prepaga:hover{
-    background-color:#D98E04;
-    color:#FFFFFF
-    
-  }
-  
-  #prepaga:focus{
-    
-    background-color:#125988 ;
-    
-    
-  }
-  
-  #ir:focus{
-    
-    background-color: #758C20;
-    color:#FFFFFF
-    
-  }
-  /*--------------------------------------*/
-  
-  /*------------------locales-----------------------*/
-  .locales{
-    margin-top:-50px;
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-    
-    
-  }
-  
-  .locales img{
-    
-    width: 70%;
-    border:solid;
-    border-color:#aaaaaa ;
-    border-radius: 5px;
-    
-  }
-  
-  .locales div{
-    padding:20px;
-    width: 40%;;
-    box-shadow: 5px 5px 5px 5px#aaaaaa  ;
-  }
-  
-  .locales h3{
-    
-    margin-top: 10px;
-  }
-  
-  /*------------------ Fin locales-----------------------*/
-
-
-  #margen-top{
-
-    margin-top:220px
-
-  }
-  /*----------------------Galeria---------------------*/
-#margen-topG{
-
-  margin-top:220px;
- 
-  text-align: center;
-
-
 }
 
-  .fotoG img{
+#prepaga{
+  
+  background-color:#FAFBFC;
+  color:#333333;
+}
 
+#ir{
+  
+  background-color: #D5E5F2;
+  color:#262014;
+}
 
-    width:100%;
-    border-radius: 3px;
-  }
+#prepaga:hover{
+  background-color:#D98E04;
+  color:#FFFFFF
+  
+}
 
-  .fotoT{
+#prepaga:focus{
+  
+  background-color:#125988 ;
+  
+  
+}
 
-    font-size:0.8em;
-    
-  }
+#ir:focus{
+  
+  background-color: #758C20;
+  color:#FFFFFF
+  
+}
+/*--------------------------------------*/
 
-  .galeria-box{
-    margin:auto 5px;
-    padding: 5px;
-    text-align: center;
-    color:#474745;
-    box-shadow: 0px 5px 15px -1px #125988 
-
-  }
-
-  /*---------------------Acerca De----------------------*/
-
-
-
-
-  #nuestra-historia h3{
-
-    margin-top:30px;
-    text-align:center
-    
-  }
-
-
-  #video-historia{
-
+/*------------------locales-----------------------*/
+.locales{
+  margin-top:-50px;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
   text-align: center;
+  padding: 20px;
+  
+  
+}
 
-  }
+.locales img{
+  
+  width: 70%;
+  border:solid;
+  border-color:#aaaaaa ;
+  border-radius: 5px;
+  
+}
 
-  #video-historia figure{
+.locales div{
+  padding:20px;
+  width: 40%;;
+  box-shadow: 5px 5px 5px 5px#aaaaaa  ;
+}
 
-    padding-top:5px;
+.locales h3{
+  
+  margin-top: 10px;
+}
 
-    box-shadow: 0px 5px 15px -1px #D5E5F2
+/*------------------ Fin locales-----------------------*/
 
 
-  }
+#margen-top{
+  
+  margin-top:220px
+  
+}
+/*----------------------Galeria---------------------*/
+#margen-topG{
+  
+  margin-top:220px;
+  margin-bottom: 50px;
+  
+  text-align: center;
+  
+  
+}
+
+.fotoG img{
+  
+  
+  width:100%;
+  border-radius: 3px;
+}
+
+.fotoT{
+  
+  font-size:0.8em;
+  
+}
+
+.galeria-box{
+  margin:auto 5px;
+  padding: 5px;
+  text-align: center;
+  color:#474745;
+  box-shadow: 0px 5px 15px -1px #125988 
+  
+}
+
+/*---------------------Acerca De----------------------*/
 
 
-  #video-historia iframe{
 
+
+#nuestra-historia h3{
+  
+  margin-top:30px;
+  text-align:center
+  
+}
+
+.video{
+
+  margin-bottom: 100px;
+}
+#video-historia{
+  
+  text-align: center;
+  
+}
+
+#video-historia figure{
+  
+  padding-top:5px;
+  
+  box-shadow: 0px 5px 15px -1px #D5E5F2
+  
+  
+}
+
+
+#video-historia iframe{
+  
   border-radius: 5px;
   width:60%;
   box-shadow: 0px 5px 15px -1px #125988 
-
-  }
-  /*-----------------------------------*/
-
-
-  @media(max-width:590px){
-    .banner{
-      
-      margin-top:210px
-    }
-    
-    
-  }
-
-  @media(max-width:596px){
   
-    
-    .banner{
-      margin-top:190px
-    }
-  }
+}
+/*-----------------------------------*/
+
+/*-----------------Obituarios---------------------*/
 
 
-  @media(max-width:850px){
+#obituarios{
   
-    .titulo mark{
-      
-      font-size:0.8em
-    }
-    
-    
-  }
+  padding:5px;
+  justify-content: center;
+ 
+}
+
+#obituarios section{
+  
+  margin: 15px 3px;
+  padding: 5px;
+  text-align: center;
+  color:#474745;
+  box-shadow: 0px 5px 15px -1px #125988 
+  
+}
 
 
-  @media(max-width:750px){
-    .titulo mark{
-      
-      font-size:0.6em
-    }
-    .titulo{
-      bottom:230px;
-      
-    }
-    
-    
-  }
+#obituarios img{  
+  width:100%;
+  border-radius: 3px;
+  
+}
 
-  @media(max-width: 429px){
+#margen-topO{
+  
+  margin-top:161px;
+  justify-content: center;
+  text-align: center;
+  
+  
+}
+#formB{
   
 
+  box-shadow: 0px 5px 15px -1px #3D90D9;
+  padding:10px;
+  
+  
+}
+
+.form{
+  padding: 5px;
+  padding-bottom:10px;
+  border:solid;
+  border-color: #99D0F2;
+  border-radius: 5px;
+  
+  background-color: #C4E1F2 ;
+  margin-top:10px;
+  margin-bottom: 60px;
+}
+
+.form input{
+  border:solid;
+  border-color:#99D0F2 ;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  
+}
+
+.form label{
+  
+  margin-top:10px
+}
+.form button{
+  
+  margin-top:5px;
+  border:solid;
+  border-color:#3D90D9 ;
+  border-radius: 5px;
+  background-color:#3D90D9;
+  color:#FFFFFF;
+  
+}
+.tituloO{
+  
+  margin-top:30px
+}
+
+#detalle{
+
+  background-image: url(/assets/nube1.jpg);
+  background-size:cover;
+  
+}
+/*-------------------------------------------------------*/
+
+@media(max-width:590px){
+  .banner{
+    
+    margin-top:210px
+  }
+  
+  
+}
+
+@media(max-width:596px){
+  
+  
+  .banner{
+    margin-top:190px
+  }
+}
+
+
+@media(max-width:850px){
+  
+  .titulo mark{
+    
+    font-size:0.8em
+  }
+  
+  
+}
+
+
+@media(max-width:750px){
+  .titulo mark{
+    
+    font-size:0.6em
+  }
+  .titulo{
+    bottom:230px;
+    
+  }
+  
+  
+}
+
+@media(max-width: 429px){
+  
+  
   .titulo mark{
     
     font-size:0.6em
@@ -245,59 +339,59 @@
     
     flex-direction: column;
   }
-
+  
   .locales div{
     padding:20px;
     width: 80%;
     margin-top:15px
     
   }
-
+  
   .titulo{
     
     bottom:200px;
     
     
   }
-
+  
 }
 
 
 @media(max-width:350px){
   
-    .titulo{
-      
-      bottom:170px;
-      
-      
-    }
+  .titulo{
     
-    
-    .titulo mark{
-      
-      font-size:0,7em;
-      
-      
-    }
-    /*----------frase debajo del título--------------------*/
-    #mobile{
-      
-      
-      background-color:#D9A404 ;
-      padding:5px;
-    }
+    bottom:170px;
     
     
   }
   
-  .video{
-    margin-right:15px;
-    margin-left:30px;
-    padding:10px;
-    display:flex;
-    justify-content: space-around;
-    margin-top:50px;
-    width: 90%;
-    height: 60vh;
-    box-shadow: 5px 5px 5px 5px#aaaaaa 
+  
+  .titulo mark{
+    
+    font-size:0,7em;
+    
+    
   }
+  /*----------frase debajo del título--------------------*/
+  #mobile{
+    
+    
+    background-color:#D9A404 ;
+    padding:5px;
+  }
+  
+  
+}
+
+.video{
+  margin-right:15px;
+  margin-left:30px;
+  padding:10px;
+  display:flex;
+  justify-content: space-around;
+  margin-top:50px;
+  width: 90%;
+  height: 60vh;
+  box-shadow: 5px 5px 5px 5px#aaaaaa 
+}

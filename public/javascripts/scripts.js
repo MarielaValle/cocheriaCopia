@@ -26,7 +26,7 @@ window.addEventListener("load", function(){
             
         }
         
-        sessionStorage.clear();
+        //sessionStorage.clear();
         
         console.log(sessionStorage);
         
@@ -34,28 +34,34 @@ window.addEventListener("load", function(){
     
     
     //------------------------
-    let menuLink = document.querySelectorAll("#menuLink i");
+    let menuLink = document.querySelectorAll("#menuLink ul li a i");
     
     console.log(menuLink)
     
     
     
-    for (let x=0; x < menuLink.length; x ++){
+    for (let i=0; i < menuLink.length; i ++){
         //menuLink.onmouseover=function(){
         
-        menuLink[x].addEventListener("click", function(){              
+        menuLink[i].addEventListener("mouseover", function(){              
             
-           
+                this.style.fontSize="2em"
                 this.style.color= "#9dc3e1"
            
                 
-                //menuLink.onmouseover=function(){
-                            
-                
+                //menuLink.onmouseover=function(){        
             
         });
         
+        menuLink[i].addEventListener("mouseout", function(){              
+            
+            this.style.fontSize="1.5em"
+            this.style.color= "#d98e04"
+       
+            
+            //menuLink.onmouseover=function(){        
         
+    });
         
     }
     

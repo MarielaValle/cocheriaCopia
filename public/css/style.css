@@ -40,7 +40,7 @@
 }
 
 .negro{
-  color:#262014
+  color:#474745
   
   
 }
@@ -126,9 +126,9 @@ ul li a{
   justify-content: space-around;
   background-color:#333333 ;
   /* background-color:#262014*/
-  /*background-color: #D5E5F2;*/
+ /* background-color: #D5E5F2;*/
  /* background-color:#125988*/
-   
+ 
   
 }
 
@@ -158,7 +158,8 @@ ul li a{
   justify-content: space-around;
   border-bottom: solid;
   border-color:#aaaaaa;
-  background-color:#FAFBFC;
+ background-color:#FAFBFC;
+ /*background-color:#D5E5F2 ;*/
 }
 
 .menu i{
@@ -390,7 +391,7 @@ Ocre #735010
 }
 
 .prepagaF{
-  margin-top:50px;
+ /* margin-top:50px;*/
   display: flex;
   justify-content: space-around;
   align-items: center;

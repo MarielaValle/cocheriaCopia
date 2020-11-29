@@ -5,8 +5,13 @@ dia dos ->8hs
 Día tres ->4 hs (instalo express y hago página acercaDe)
 día cuatro -> 4 hs  (instalo servicios y completo y hago back de galería y preparo carpeta de fotos galeria y de fotos obituarios)
 día cinco -> 4 hs  (hago vista galería, y obituarios desde cero, con base de datos e instalción sequelize)
+día seis -> 2,5 hs (arreglos vista obituarios, hago los formularios)
+día seis-tarde -> 2 horas, hago detalle obito
 
 
-https://i.imgur.com/YDjnz5V.jpg
 
-imágen: de home, familia
+
+
+
+
+

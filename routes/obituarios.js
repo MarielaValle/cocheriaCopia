@@ -8,4 +8,6 @@ const obituariosController = require('../controllers/obituariosController')
 /* GET home page. */
 router.get('/', obituariosController.raiz)
 
+router.get('/detalle/:id',obituariosController.detalle)
+
 module.exports = router;
