@@ -4,48 +4,48 @@
 
 <!------------------------------------------>
 
-<div class="container" >
+<div class="container">
 
-    <div  class="row" id="margen-topG">
-  <!------------------------------------------------------->
-        
+  <div class="row" id="margen-topG">
+    <!------------------------------------------------------->
 
-  <div class="col-12">
 
-    <h3>Galería de fotos</h3>
-  </div>
-  <% galeria.forEach(foto => { %>
-  
-  <div  class=" col-12 col-sm-6 col-lg-3"  >
+    <div class="col-12">
 
-        
-        <section class="galeria-box">
-        <figure  class="fotoG">
-           <img src="assets/galeria/<%=foto.imagen%>" alt="galeria fotos">
+      <h3>Galería de fotos</h3>
+    </div>
+    <% galeria.forEach(foto => { %>
 
-           <span class="fotoT"><%=foto.titulo%> </span>
+    <div class=" col-12 col-sm-6 col-lg-3">
+
+
+      <section class="galeria-box">
+        <figure class="fotoG">
+          <img src="assets/galeria/<%=foto.imagen%>" alt="galeria fotos">
+
+          <span class="fotoT"><%=foto.titulo%> </span>
         </figure>
 
-            
-
-
-        </section>
-        
-        
-        
-        </div>
-
-
-        <% }); %>
 
 
 
+      </section>
 
 
 
-
-        <!---------------------------------------------------->
     </div>
+
+
+    <% }); %>
+
+
+
+
+
+
+
+    <!---------------------------------------------------->
+  </div>
 </div>
 
 

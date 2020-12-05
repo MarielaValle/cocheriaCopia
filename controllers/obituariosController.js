@@ -23,7 +23,78 @@ let obituariosController={
             res.render('detalleObito', {obito})
         })
         .catch(error => console.log(error));
-    }
+    },
+
+    searchA:(req,res,next)=>{
+    
+        db.Obituario.findAll({
+
+         where:{
+
+             apellido:req.query.keyword
+                
+            },
+            
+
+         })
+		.then(results => {
+			
+			res.render("results", {results,search: req.query.keyword});
+		})
+		.catch(error => console.log(error));
+        
+    },
+
+    searchD:(req,res,next)=>{
+
+        
+
+        db.Obituario.findAll({
+
+         where:{
+
+             fecha: new Date(req.query.date)
+                
+            }
+           
+         })
+        
+
+		.then(results => {
+
+            console.log(results)
+            
+			res.render("results", {results,search: req.query.date});
+		})
+		.catch(error => console.log(error));
+        
+    },
+
+
+    searchM:(req,res,next)=>{
+
+    db.Obituario.findAll({
+
+        
+
+        where:{
+
+            fecha: new Date(req.query.date)
+               
+           }
+          
+        })
+       
+
+       .then(results => {
+
+           console.log(results)
+           
+           res.render("results", {results,search: req.query.date});
+       })
+       .catch(error => console.log(error));
+       
+   }
     
     
     }

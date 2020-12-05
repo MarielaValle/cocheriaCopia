@@ -11,7 +11,7 @@
 
         <div class="col-12" >
 
-            <img src="assets/obituarios2.jpg" alt="">
+            <img src="/assets/obituarios2.jpg" alt="">
 
 
 
@@ -21,10 +21,10 @@
 
             <h5 class="tituloO">Buscar óbito</h5>
 
-            <form class="form" action="">
+            <form class="form" action="obituarios/searchDate"  method="GET">
 
-                <label for="apellido">Apellido</label><br>
-                <input type="text" id="apellido" name="apellido"><br>
+            <!---- <label for="apellido">Apellido</label><br>
+                <input type="text" id="apellido" name="apellido"><br>--->
 
                 <label for="date">Fecha de óbito</label><br>
                 <input type="date" id="date" name="date"><br>
@@ -34,7 +34,7 @@
             </form>
 
 
-            <form action="" id="formB" >
+            <form action="obituarios/searchM"  method="GET" id="formB" >
 
                 <p>Año 2020</p>
 
@@ -83,7 +83,7 @@
 
                             <figure>
 
-                                <img src="assets/obitos/<%=obito.imagen%>" alt="fotos obituarios">
+                                <img src="/assets/obitos/<%=obito.imagen%>" alt="fotos obituarios">
 
 
                             </figure>

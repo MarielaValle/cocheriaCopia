@@ -183,7 +183,8 @@
   
   border-radius: 5px;
   width:60%;
-  box-shadow: 0px 5px 15px -1px #125988 
+  box-shadow: 0px 5px 15px -1px #125988 ;
+  margin-bottom:50px
   
 }
 /*-----------------------------------*/
@@ -221,6 +222,7 @@
   margin-top:161px;
   justify-content: center;
   text-align: center;
+  margin-bottom: 50px;
   
   
 }
