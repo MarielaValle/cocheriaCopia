@@ -1,0 +1,131 @@
+<%- include('partials/head')%>
+<%- include('partials/header')%>
+
+<!------------------------------------------>
+
+
+<div class="container">
+    <div class="row" id="margen-topO">
+        <!-------------------------------------------->
+
+
+        <div class="col-12" >
+
+            <img src="assets/obituarios2.jpg" alt="">
+
+
+
+        </div>
+
+        <div class=" col-12 col-sm-3">
+
+            <h5 class="tituloO">Buscar óbito</h5>
+
+            <form class="form" action="">
+
+                <label for="apellido">Apellido</label><br>
+                <input type="text" id="apellido" name="apellido"><br>
+
+                <label for="date">Fecha de óbito</label><br>
+                <input type="date" id="date" name="date"><br>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+
+
+            <form action="" id="formB" >
+
+                <p>Año 2020</p>
+
+                    <label for="mes"></label><br>
+
+                    <select name="mes" id="mes"><br>
+
+                        <option value="" selected>Elegir mes</option>
+                        <option value="enero">enero</option>
+                        <option value="febrero">febrero/option>
+                        <option value="marzo">marzo</option>
+                        <option value="abril">abril</option>
+                        <option value="mayo">mayo</option>
+                        <option value="junio">junio</option>
+                        <option value="julio">julio</option>
+                        <option value="agosto">agosto</option>
+                        <option value="septiembre">septiembre</option>
+                        <option value="octubre">octubre</option>
+                        <option value="noviemebre">noviembre</option>
+                        <option value="diciembre">diciembre</option>
+
+                    </select>
+
+
+
+                </form>
+
+
+
+
+        </div>
+            <div class="col-12 col-sm-9">
+       
+            <div class="row" id="obituarios">
+
+
+               
+    hola
+
+                <% obituarios.forEach(obito=> { %>
+                <div class=" col-12 col-sm-6 col-lg-3">
+
+                    <a href="/obituarios/detalle/<%=obito.id%>">
+
+                        <section>
+
+                            <figure>
+
+                                <img src="assets/obitos/<%=obito.imagen%>" alt="fotos obituarios">
+
+
+                            </figure>
+
+
+
+
+                        </section>
+
+                    </a>
+
+                </div>
+
+
+                <% }); %>
+
+            </div>
+
+
+
+
+
+
+
+        
+        </div>
+
+
+
+
+
+        <!------------------------------------------------>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+<!-------------------------------------------->
+
+<%- include('partials/footer')%>

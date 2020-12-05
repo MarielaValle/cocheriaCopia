@@ -10,7 +10,7 @@ var acercaDeRouter = require('./routes/acercaDe');
 var serviciosRouter = require('./routes/servicios');
 var galeriaRouter = require('./routes/galeria');
 var obituariosRouter = require('./routes/obituarios')
-
+var prepagaRouter = require('./routes/prepaga');
 
 var app = express();
 
@@ -29,7 +29,8 @@ app.use('/users', usersRouter);
 app.use('/acercaDe',acercaDeRouter);
 app.use('/servicios', serviciosRouter);
 app.use('/galeria',galeriaRouter);
-app.use('/obituarios',obituariosRouter)
+app.use('/obituarios',obituariosRouter);
+app.use('/prepaga', prepagaRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
