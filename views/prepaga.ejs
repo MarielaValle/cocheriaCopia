@@ -1,0 +1,63 @@
+<%- include('partials/head')%>
+<%- include('partials/header')%>
+
+<!------------------------------------------------>
+
+
+
+<div class="container">
+<div class="row" id="presentacion">
+
+
+
+    <% presentacion.forEach(foto=>{%>
+
+
+        <div class="col-12 col-md-6 col-lg-3" >
+    
+            <section class="galeria-box">
+                <figure  class="fotoG">
+                   <img src="/assets/prepaga/<%=foto%>" alt="Presentación Prepaga"> 
+                </figure>
+    
+        </div>
+    
+        <%})%>
+
+    </div>
+
+       <div class="row" id="planes" >
+
+    <% prepaga.forEach(item=>{%>
+
+
+        <div class="col-12 col-md-6 col-lg-3" >
+    
+            <section class="galeria-box">
+                <figure  class="fotoG">
+                   <img src="/assets/prepaga/<%=item%>" alt="planes Andes-Prepaga">
+        
+                   
+                </figure>
+    
+        </div>
+    
+        <%})%>
+    
+  
+    </div>
+
+    
+<!------------------------------>
+
+
+</div>
+
+
+
+
+
+
+
+<!---------------------------------------------------->
+<%- include('partials/footer')%>
