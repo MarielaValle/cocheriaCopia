@@ -269,6 +269,16 @@
   color:#FFFFFF;
   
 }
+#option{
+
+  margin-top:5px;
+  border:solid;
+  border-color:#3D90D9 ;
+  border-radius: 5px;
+  background-color:#3D90D9;
+  color:#FFFFFF
+
+}
 .tituloO{
   
   margin-top:30px

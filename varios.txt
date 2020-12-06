@@ -7,6 +7,8 @@ día cuatro -> 4 hs  (instalo servicios y completo y hago back de galería y pre
 día cinco -> 4 hs  (hago vista galería, y obituarios desde cero, con base de datos e instalción sequelize)
 día seis -> 2,5 hs (arreglos vista obituarios, hago los formularios)
 día seis-tarde -> 2 horas, hago detalle obito
+dia siete -> 4 hs , hago buscador por apellido y por fecha
+dia ocho -> 4 hs, hago buscador por mes
 
 
 

@@ -1,4 +1,6 @@
 var db = require('../database/models/index.js');
+const { Sequelize, sequelize } = require('../database/models/index.js');
+const Op = Sequelize.Op;
 
 let obituariosController={
 
@@ -72,17 +74,22 @@ let obituariosController={
 
 
     searchM:(req,res,next)=>{
+  
+        let meses=["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"]   
+        var mes= meses.indexOf(req.query.mes)
+        console.log(mes)
 
+       let fechaI= '2020,'+ (mes+1) +',1'
+       let fechaF='2020,'+ (mes+1) +',31'
+        console.log(fechaI)
+       
     db.Obituario.findAll({
-
         
-
         where:{
 
-            fecha: new Date(req.query.date)
-               
-           }
-          
+        fecha: {[Op.between]: [fechaI, fechaF]}
+        }
+       
         })
        
 
@@ -90,7 +97,7 @@ let obituariosController={
 
            console.log(results)
            
-           res.render("results", {results,search: req.query.date});
+           res.render("results", {results,search: req.query.mes});
        })
        .catch(error => console.log(error));
        
