@@ -9,6 +9,7 @@ día seis -> 2,5 hs (arreglos vista obituarios, hago los formularios)
 día seis-tarde -> 2 horas, hago detalle obito
 dia siete -> 4 hs , hago buscador por apellido y por fecha
 dia ocho -> 4 hs, hago buscador por mes
+dia nueve -> 4hs, hago despliegue en heroku (me atrasé un poco por inexperincia, y no tenía script BD, aprendí a bajar y subir dato como excel.
 
 
 
