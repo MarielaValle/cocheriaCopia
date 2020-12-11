@@ -193,17 +193,17 @@
 
 
 #obituarios{
-  
+ 
   padding:5px;
   justify-content: center;
-  margin-top:20px;
+  margin-top:50px;
   
   
  
 }
 
 #obituarios span{
-  margin-top:20px;
+ 
   padding:7px;
   font-family:'Lobster two',cursive;
   background-color: #FAFBFC;
@@ -365,7 +365,9 @@
     font-size:0.8em
   }
   
-  
+  .form input{
+    font-size:0.8em
+  }
 }
 
 
