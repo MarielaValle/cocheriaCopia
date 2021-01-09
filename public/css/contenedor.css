@@ -71,17 +71,85 @@
   background-color: #758C20;
   color:#FFFFFF
   
-}
+} 
 /*--------------------------------------*/
+.datosContacto{
+  display:flex;
+  justify-content: space-around;
+  margin:30px;
+  padding:30px;
+  box-shadow: 5px 5px 5px 5px#aaaaaa;
+
+}
+
+.fotoC{
+
+  width:100%;
+  border:solid;
+  border-color:#aaaaaa ;
+  border-radius: 5px;
+
+}
+
+.carousel{
+
+ 
+  width:60%;
+  display:flex;
+  justify-content: center;
+  align-items:center
+}
+
+.index{
+
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items:center;
+  font-family:'Lobster',cursive;
+}
+.searchCobertura{
+
+  border:solid;
+  border-radius: 5px;
+  border-color:#0E476C
+}
+
+.searchButtonC{
+  margin-top: 3px;
+  border-radius:5px ;
+  
+  background-color:#FAFBFC;
+  
+  border-color: #0E476C;
+  color:#262014;
+
+}
+
+.searchButtonC:hover{
+  
+  background-color:#125988;
+  color:#FFFFFF;
+}
+
+.searchButtonC:focus{
+  
+  background-color:#FAFBFC;
+  color: #D9A404;
+  
+}
+
 
 /*------------------locales-----------------------*/
 .locales{
-  margin-top:-50px;
+  margin-top:0px;
   display:flex;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
+  flex-direction: column;
+ 
+  align-items: flex-start;
+ 
   padding: 20px;
+  width: 40%;
   
   
 }
@@ -98,7 +166,7 @@
 .locales div{
   padding:20px;
   width: 40%;;
-  box-shadow: 5px 5px 5px 5px#aaaaaa  ;
+  box-shadow: 5px 5px 5px 5px#aaaaaa;
 }
 
 .locales h3{
@@ -218,14 +286,15 @@
   padding: 15px;
   text-align: center;
   color:#474745;
-  box-shadow: 0px 5px 15px -1px #125988 
-  
+  box-shadow: 0px 5px 15px -1px #125988 ;
+ 
 }
 
 
 #obituarios img{  
   width:100%;
   border-radius: 3px;
+
   
 }
 
@@ -243,8 +312,14 @@
 
   box-shadow: 0px 5px 15px -1px #3D90D9;
   padding:10px;
+  margin-bottom: 60px;
   
   
+}
+
+.pre-pagaO{
+
+  width:100%;
 }
 
 .form{
@@ -355,6 +430,22 @@
   .banner{
     margin-top:190px
   }
+
+  .datosContacto{
+
+  flex-direction: column;
+  align-items: center;
+  font-size:0.8em
+  }
+
+  .locales{
+    width: 100%;
+    align-items:center
+  }
+ .carousel{
+
+  width: 100%;
+ }
 }
 
 

@@ -291,12 +291,7 @@ Ocre #735010
   
 }
 
-.contacto span{
-  background-color: white;
-  border-radius: 10px;
-  padding: 3px;
-  
-}
+
 
 .contacto{
   
@@ -316,15 +311,30 @@ Ocre #735010
 
 .fa-whatsapp{
   
-  color:#2BCC1A
+  color:white;
+  background-color:#2BCC1A ;
+  border-radius: 25px;
+  padding:7px;
+  font-size:1.8em
 }
 
 .fa-share-alt{
   
-  color:#034001
+  color:#034001;
+  background-color:white ;
+  border-radius: 25px;
+  padding:7px;
+  font-size:1.8em
 }
 
+.fa-instagram-square{
 
+  color:white;
+  background-color:orange ;
+  border-radius: 15px;
+  padding:5px;
+  font-size:1.2em
+}
 
 
 .footer{

@@ -11,6 +11,8 @@ dia siete -> 4 hs , hago buscador por apellido y por fecha
 dia ocho -> 4 hs, hago buscador por mes
 dia nueve -> 4hs, hago despliegue en heroku (me atrasé un poco por inexperincia, y no tenía script BD, aprendí a bajar y subir dato como excel.
 
+dia 10 -> 7hs
+día 11 -> 7hs
 
 
 
