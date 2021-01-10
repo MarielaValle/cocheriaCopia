@@ -1,0 +1,633 @@
+[
+{
+    "id":1,
+     "tipo":"Mutual Provincial",
+     "nombre":"Amas"
+
+},
+
+
+{
+    "id":2,
+     "tipo":"Mutual Provincial",
+     "nombre":"Amsa"
+    
+    },
+
+    {
+        "id":3,
+         "tipo":"Mutual Provincial",
+         "nombre":"Amuppol"
+        
+        },
+        {
+            "id":4,
+             "tipo":"Mutual Provincial",
+             "nombre":"Aoma"
+            
+            },
+
+            {
+                "id":6,
+                 "tipo":"Mutual Provincial",
+                 "nombre":"Asociacion Mutual 12 De Agosto"
+                
+                },
+
+                {
+                    "id":7,
+                     "tipo":"Mutual Provincial",
+                     "nombre":" Asociacion Proteger"
+                    
+                    },
+
+                    {
+                        "id":8,
+                         "tipo":"Mutual Provincial",
+                         "nombre":"aruso "
+                        
+                        },
+                        {
+                            "id":9,
+                             "tipo":"Mutual Provincial",
+                             "nombre":"CEC"
+                            
+                            },
+
+                            {
+                                "id":10,
+                                 "tipo":"Mutual Provincial",
+                                 "nombre":"Circulo De Suboficiales De La Fuerza Aerea"
+                                
+                                },
+
+                                {
+                                    "id":11,
+                                     "tipo":"Mutual Provincial",
+                                     "nombre":"Fraternidad Ferroviaria"
+                                    
+                                    },
+                                    {
+                                        "id":12,
+                                         "tipo":"Mutual Provincial",
+                                         "nombre":"Funarg Otros Convenios"
+                                        
+                                        },
+
+                                        {
+                                            "id":13,
+                                             "tipo":"Mutual Provincial",
+                                             "nombre":"Funarg S.A. Art"
+                                            
+                                            },
+
+                                            {
+                                                "id":14,
+                                                 "tipo":"mutualProvincial",
+                                                 "nombre":"La Bancaria"
+                                                
+                                                },
+
+                                                {
+                                                    "id":15,
+                                                     "tipo":"Mutual Provincial",
+                                                     "nombre":"Mañana S.A."
+                                                    
+                                                    },
+
+                                                    {
+                                                        "id":16,
+                                                         "tipo":"Mutual Provincial",
+                                                         "nombre":"Mupim"
+                                                        
+                                                        },
+    
+                                                        {
+                                                            "id":17,
+                                                             "tipo":"Mutual Provincial",
+                                                              "nombre":"Mutual 21 De Setiembre"
+                                                            },
+    
+                                                            {
+                                                                "id":18,
+                                                                 "tipo":"Mutual Provincial",
+                                                                  "nombre":"Mutual Cruz Del Plata"
+                                                                },
+
+                                                                {
+                                                                    "id":19,
+                                                                     "tipo":"Mutual Provincial",
+                                                                      "nombre":"Organización Seral Servicios De Sepelios A Empresas"
+                                                                    },
+
+                                                                    {
+                                                                        "id":20,
+                                                                         "tipo":"Mutual Provincial",
+                                                                          "nombre":"Penitenciaria Provincial"
+                                                                        },
+
+                                                                        {
+                                                                            "id":21,
+                                                                             "tipo":"Mutual Provincial",
+                                                                              "nombre":"Servicio Modelo"
+                                                                            },
+                                                                            {
+                                                                                "id":22,
+                                                                                 "tipo":"Mutual Provincial",
+                                                                                  "nombre":"Sindicato De Choferes De Camiones De Mendoza"
+                                                                                },
+
+                                                                                {
+                                                                                    "id":23,
+                                                                                     "tipo":"Mutual Provincial",
+                                                                                      "nombre":"Sindicato De Estaciones De Servicios"
+                                                                                    },
+                                                                                    {
+                                                                                        "id":24,
+                                                                                         "tipo":"Mutual Provincial",
+                                                                                          "nombre":"Sind. De Trabajadores De La Ind. Del Hielo (Stihmpra)"
+                                                                                        },
+                                                                                        {
+                                                                                            "id":25,
+                                                                                             "tipo":"Mutual Provincial",
+                                                                                              "nombre":"Sipemom/Ospemom"
+                                                                                            },
+        
+                                                                                            {
+                                                                                                "id":26,
+                                                                                                 "tipo":"Mutual Provincial",
+                                                                                                  "nombre":"Sitravi"
+                                                                                                },
+
+                                                                                                {
+                                                                                                    "id":27,
+                                                                                                     "tipo":"Mutual Provincial",
+                                                                                                      "nombre":"Triunfo Seguros"
+                                                                                                    },
+
+                                                                                                    {
+                                                                                                        "id":28,
+                                                                                                         "tipo":"Mutual Provincial",
+                                                                                                          "nombre":"U.O Y U.P Union Obrera Y Empleado Del Plastico Unión De Trabajadores Gastronómicos"
+                                                                                                        },
+
+                                                                                                        {
+                                                                                                            "id":29,
+                                                                                                             "tipo":"Mutual Nacional",
+                                                                                                              "nombre":"APRES"
+                                                                                                            },
+
+                                                                                                            {
+                                                                                                                "id":30,
+                                                                                                                 "tipo":"Mutual Nacional",
+                                                                                                                  "nombre":"Aseguradora de Riesgos de Trabajo Interacción S.A."
+                                                                                                                },
+                                                                                                                {
+                                                                                                                    "id":31,
+                                                                                                                     "tipo":"Mutual Nacional",
+                                                                                                                      "nombre":"Asoc. de Agentes de Loteria y Afines – AALARA"
+                                                                                                                    },
+
+                                                                                                                    {
+                                                                                                                        "id":32,
+                                                                                                                         "tipo":"Mutual Nacional",
+                                                                                                                          "nombre":"Asoc. Mutual Circulo de Subof. Del Ejercito -AMCIRSE"
+                                                                                                                        },
+
+                                                                                                                        {
+                                                                                                                            "id":33,
+                                                                                                                             "tipo":"Mutual Nacional",
+                                                                                                                              "nombre":"Asoc. Mutual del Pers. Jerarq. De Bcos. Oficiales Nacionales Jerarq."
+                                                                                                                            },
+
+                                                                                                                            {
+                                                                                                                                "id":34,
+                                                                                                                                 "tipo":"Mutual Nacional",
+                                                                                                                                  "nombre":"Salud"
+                                                                                                                                },
+                                                                                                                                {
+                                                                                                                                    "id":35,
+                                                                                                                                     "tipo":"Mutual Nacional",
+                                                                                                                                      "nombre":"Asoc. Mutual del Personal de Sancor"
+                                                                                                                                    },
+
+                                                                                                                                    {
+                                                                                                                                        "id":36,
+                                                                                                                                         "tipo":"Mutual Nacional",
+                                                                                                                                          "nombre":"Asoc. Mutual Patagónica"
+                                                                                                                                        },
+
+                                                                                                                                        {
+                                                                                                                                            "id":37,
+                                                                                                                                             "tipo":"Mutual Nacional",
+                                                                                                                                              "nombre":"Asoc. Mutual Protección Solidaria Permanente"
+                                                                                                                                            },
+                                                                                                                                            {
+                                                                                                                                                "id":38,
+                                                                                                                                                 "tipo":"Mutual Nacional",
+                                                                                                                                                  "nombre":"Asoc. Mutual Ruralista -AMUR"
+                                                                                                                                                },
+
+                                                                                                                                                {
+                                                                                                                                                    "id":39,
+                                                                                                                                                     "tipo":"Mutual Nacional",
+                                                                                                                                                      "nombre":"Asoc. Mutual Sancor"
+                                                                                                                                                    },
+
+                                                                                                                                                    {
+                                                                                                                                                        "id":40,
+                                                                                                                                                         "tipo":"Mutual Nacional",
+                                                                                                                                                          "nombre":"Asoc. Mutual y Frat. para Empl. del Bco.Sant. Rio – MEBSAN"
+                                                                                                                                                        },
+                                                                                                                                                        {
+                                                                                                                                                            "id":41,
+                                                                                                                                                             "tipo":"Mutual Nacional",
+                                                                                                                                                              "nombre":"Asoc. Viajantes y Vendedores de la Argentina de Ind. Comercio y Serv."
+                                                                                                                                                            },
+                                                                                                                                                            {
+                                                                                                                                                                "id":42,
+                                                                                                                                                                 "tipo":"Mutual Nacional",
+                                                                                                                                                                  "nombre":"Asociación de Superv. de la Industria Metalúrgica – ASIMRA"
+                                                                                                                                                                },
+
+                                                                                                                                                                {
+                                                                                                                                                                    "id":43,
+                                                                                                                                                                     "tipo":"Mutual Nacional",
+                                                                                                                                                                      "nombre":"Beneficio S.A."
+                                                                                                                                                                    },
+                                                                                                                                                                    {
+                                                                                                                                                                        "id":44,
+                                                                                                                                                                         "tipo":"Mutual Nacional",
+                                                                                                                                                                          "nombre":"Bonacorsi Seguros de Personas S.A."
+                                                                                                                                                                        },
+                                                                                                                                                                        {
+                                                                                                                                                                            "id":45,
+                                                                                                                                                                             "tipo":"Mutual Nacional",
+                                                                                                                                                                              "nombre":"CIBA Gestora de la Mutual Apoyo Solidario"
+                                                                                                                                                                            },
+                                                                                                                                                                            {
+                                                                                                                                                                                "id":46,
+                                                                                                                                                                                 "tipo":"Mutual Nacional",
+                                                                                                                                                                                  "nombre":"Circulo de Suboficiales de Gendarmería Nacional"
+                                                                                                                                                                                },
+
+                                                                                                                                                                                {
+                                                                                                                                                                                    "id":47,
+                                                                                                                                                                                     "tipo":"Mutual Nacional",
+                                                                                                                                                                                      "nombre":"Circulo de Suboficiales de Prefectura Naval"
+                                                                                                                                                                                    },
+                                                                                                                                                                                    {
+                                                                                                                                                                                        "id":48,
+                                                                                                                                                                                         "tipo":"Mutual Nacional",
+                                                                                                                                                                                          "nombre":"Circulo de Suboficiales del Ejercito – CIRSE"
+                                                                                                                                                                                        },
+
+                                                                                                                                                                                        {
+                                                                                                                                                                                            "id":49,
+                                                                                                                                                                                             "tipo":"Mutual Nacional",
+                                                                                                                                                                                              "nombre":"Colón Seguros S.A."
+                                                                                                                                                                                            },
+
+                                                                                                                                                                                            {
+                                                                                                                                                                                                "id":50,
+                                                                                                                                                                                                 "tipo":"Mutual Nacional",
+                                                                                                                                                                                                  "nombre":"DIGNA S.A."
+                                                                                                                                                                                                },
+                                                                                                                                                                                                {
+                                                                                                                                                                                                    "id":51,
+                                                                                                                                                                                                     "tipo":"Mutual Nacional",
+                                                                                                                                                                                                      "nombre":"Direccion de Salud y Acción Social de la Armada – DIBA"
+                                                                                                                                                                                                    },
+                                                                                                                                                                                                    {
+                                                                                                                                                                                                        "id":52,
+                                                                                                                                                                                                         "tipo":"Mutual Nacional",
+                                                                                                                                                                                                          "nombre":"Dirección Gral. de Acción Social del Servicio Penitenciario Bonaerense"
+                                                                                                                                                                                                        },
+                                                                                                                                                                                                        {
+                                                                                                                                                                                                            "id":53,
+                                                                                                                                                                                                             "tipo":"Mutual Nacional",
+                                                                                                                                                                                                              "nombre":"El Triunfo Coop. De Seguros Ltda"
+                                                                                                                                                                                                            },
+                                                                                                                                                                                                            {
+                                                                                                                                                                                                                "id":54,
+                                                                                                                                                                                                                 "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                  "nombre":"Empleados del Mercado Central de Bs. As."
+                                                                                                                                                                                                                },
+                                                                                                                                                                                                                {
+                                                                                                                                                                                                                    "id":55,
+                                                                                                                                                                                                                     "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                      "nombre":"Federacion Argentina de Trab. de la Imprenta, Diarios, y Afines -FATIDA"
+                                                                                                                                                                                                                    },
+                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                        "id":56,
+                                                                                                                                                                                                                         "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                          "nombre":"Federacion Gremial Personal de la Ind. de Carne y Derivados"
+                                                                                                                                                                                                                        },
+
+                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                            "id":57,
+                                                                                                                                                                                                                             "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                              "nombre":"Fedracion Argentina de Aguas Gaseosas – FATAGA"
+                                                                                                                                                                                                                            },
+                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                "id":58,
+                                                                                                                                                                                                                                 "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                  "nombre":"Horizonte ART"
+                                                                                                                                                                                                                                },
+                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                    "id":59,
+                                                                                                                                                                                                                                     "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                      "nombre":"Inst. Autarq. Pcial. De Obra Social – IAPOS SANTA FE"
+                                                                                                                                                                                                                                    },
+
+                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                        "id":60,
+                                                                                                                                                                                                                                         "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                          "nombre":"Inst. Autarq. Pcial. del Seguro – IAPS RIO NEGRO"
+                                                                                                                                                                                                                                        },
+
+                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                            "id":61,
+                                                                                                                                                                                                                                             "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                              "nombre":"Instituto de Seguros S.A."
+                                                                                                                                                                                                                                            },
+
+                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                "id":62,
+                                                                                                                                                                                                                                                 "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                  "nombre":"INSTUTUTO DE PREVENCION Y SEGURIDAD SOCIAL DE TUCUMAN"
+                                                                                                                                                                                                                                                },
+                                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                                    "id":63,
+                                                                                                                                                                                                                                                     "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                      "nombre":"I.P.P.S.T."
+                                                                                                                                                                                                                                                    },
+
+                                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                                        "id":64,
+                                                                                                                                                                                                                                                         "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                          "nombre":"JARDIN DEL PILAR"
+                                                                                                                                                                                                                                                        },
+
+                                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                                            "id":65,
+                                                                                                                                                                                                                                                             "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                              "nombre":"La Reciproca – SMSV CIA. ARG. DE SEG. DE VIDA S.A."
+                                                                                                                                                                                                                                                            },
+
+                                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                                "id":66,
+                                                                                                                                                                                                                                                                 "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                  "nombre":"Liderar ART"
+                                                                                                                                                                                                                                                                },
+
+                                                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                                                    "id":67,
+                                                                                                                                                                                                                                                                     "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                      "nombre":"Mañana S.A."
+                                                                                                                                                                                                                                                                    },
+
+                                                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                                                        "id":67,
+                                                                                                                                                                                                                                                                         "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                          "nombre":"Naser Group – Repatriaciones"
+                                                                                                                                                                                                                                                                        },
+
+                                                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                                                            "id":68,
+                                                                                                                                                                                                                                                                             "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                              "nombre":"NOVARA SALUD"
+                                                                                                                                                                                                                                                                            },
+                                                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                                                "id":69,
+                                                                                                                                                                                                                                                                                 "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                  "nombre":"Obra social de Agentes de Propaganda Medica – APM"
+                                                                                                                                                                                                                                                                                },
+                                                                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                                                                    "id":70,
+                                                                                                                                                                                                                                                                                     "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                      "nombre":"Obra Social de Docentes Particulares – OSDOP"
+                                                                                                                                                                                                                                                                                    },
+
+                                                                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                                                                        "id":71,
+                                                                                                                                                                                                                                                                                         "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                          "nombre":"Obra Social de Empl. Del Tabaco de la Rep.Argentina – JUBILADOS"
+                                                                                                                                                                                                                                                                                        },
+
+                                                                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                                                                            "id":72,
+                                                                                                                                                                                                                                                                                             "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                              "nombre":"Obra Social de Vialidad Nacional"                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                            },
+                                                                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                                                                "id":73,
+                                                                                                                                                                                                                                                                                                 "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                                  "nombre":"Obra Social del Pers. Adm. Tec. de la Constr. y Afines – OSPATCA"                                                                                                                                                                                                                                                                                              
+                                                                                                                                                                                                                                                                                                },
+
+                                                                                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                                                                                    "id":74,
+                                                                                                                                                                                                                                                                                                     "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                                      "nombre":"Obra Social del Pers. De la Construccion – OSPECON"
+                                                                                                                                                                                                                                                                                                    },
+
+                                                                                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                                                                                        "id":75,
+                                                                                                                                                                                                                                                                                                         "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                                          "nombre":"Obra Social del Pers. Sup. y Prof. De Empr. Aerocomerciales"
+                                                                                                                                                                                                                                                                                                        },
+
+                                                                                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                                                                                            "id":76,
+                                                                                                                                                                                                                                                                                                             "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                                              "nombre":"Obra Social del Personal de Casa Particulares"
+                                                                                                                                                                                                                                                                                                            },
+                                                                                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                                                                                "id":77,
+                                                                                                                                                                                                                                                                                                                 "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                                                  "nombre":"Perfumistas"
+                                                                                                                                                                                                                                                                                                                },
+
+                                                                                                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                                                                                                    "id":78,
+                                                                                                                                                                                                                                                                                                                     "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                                                      "nombre":"Personal de FF AA y de Seguridad – CIA MERCANTIL ASEGURADORA S.A."
+                                                                                                                                                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                    },
+
+                                                                                                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                                                                                                        "id":79,
+                                                                                                                                                                                                                                                                                                                         "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                                                          "nombre":"Pieve Seguros S.A."
+                                                                                                                                                                                                                                                                                                                        },
+
+                                                                                                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                                                                                                            "id":80,
+                                                                                                                                                                                                                                                                                                                             "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                                                              "nombre":"Prevencion ART"
+                                                                                                                                                                                                                                                                                                                            },
+    
+                                                                                                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                                                                                                "id":81,
+                                                                                                                                                                                                                                                                                                                                 "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                                                                  "nombre":"Previnca Seguros S.A."
+                                                                                                                                                                                                                                                                                                                                },
+
+                                                                                                                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                                                                                                                    "id":82,
+                                                                                                                                                                                                                                                                                                                                     "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                                                                      "nombre":"Sanatorio Modelo Quilmes"
+                                                                                                                                                                                                                                                                                                                                    },
+
+                                                                                                                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                                                                                                                        "id":83,
+                                                                                                                                                                                                                                                                                                                                         "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                                                                          "nombre":"Siempre Servicios Sociales"
+                                                                                                                                                                                                                                                                                                                                        },
+
+                                                                                                                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                                                                                                                            "id":84,
+                                                                                                                                                                                                                                                                                                                                             "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                                                                              "nombre":"Sindicato Argentino de la Industria fideera – SATIF"
+                                                                                                                                                                                                                                                                                                                                            },
+
+                                                                                                                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                                                                                                                "id":85,
+                                                                                                                                                                                                                                                                                                                                                 "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                                                                                  "nombre":"Sindicato de Obreros Maritimos Unidos – SOMU"
+                                                                                                                                                                                                                                                                                                                                                },
+
+                                                                                                                                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                                                                                                                                    "id":86,
+                                                                                                                                                                                                                                                                                                                                                     "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                                                                                      "nombre":"Sindicato Federacion Grafica Bonaerense"
+                                                                                                                                                                                                                                                                                                                                                    },
+
+                                                                                                                                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                                                                                                                                        "id":87,
+                                                                                                                                                                                                                                                                                                                                                         "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                                                                                          "nombre":"Sindicato Obreros y Empleados de la Ind. del Chacinado y Afines"
+                                                                                                                                                                                                                                                                                                                                                        },
+
+                                                                                                                                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                                                                                                                                            "id":88,
+                                                                                                                                                                                                                                                                                                                                                             "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                                                                                              "nombre":"Sindicato Trab. de la Industria del hielo y Afines – STIHMPRA"
+                                                                                                                                                                                                                                                                                                                                                            },
+
+                                                                                                                                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                                                                                                                                "id":89,
+                                                                                                                                                                                                                                                                                                                                                                 "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                                                                                                  "nombre":"Sindicato Unico de Empleados del Tabaco RA – SUETRA"
+                                                                                                                                                                                                                                                                                                                                                                },
+
+                                                                                                                                                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                                                                                                                                                    "id":90,
+                                                                                                                                                                                                                                                                                                                                                                     "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                                                                                                      "nombre":"Sindicato Unico de Trab. del Estado de la Cdad. De BS.As. – SUTECBA"
+                                                                                                                                                                                                                                                                                                                                                                    },
+
+                                                                                                                                                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                                                                                                                                                        "id":91,
+                                                                                                                                                                                                                                                                                                                                                                         "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                                                                                                          "nombre":"Socios de SMSV Seguros de Vida"
+                                                                                                                                                                                                                                                                                                                                                                        },
+
+                                                                                                                                                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                                                                                                                                                            "id":92,
+                                                                                                                                                                                                                                                                                                                                                                             "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                                                                                                              "nombre":"Union Argentina de Trabajadores Rurales y Estibadores -UATRE"
+                                                                                                                                                                                                                                                                                                                                                                            },
+
+                                                                                                                                                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                                                                                                                                                "id":93,
+                                                                                                                                                                                                                                                                                                                                                                                 "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                                                                                                                  "nombre":"Union de Empleado de la Justicia de la Nacion"
+                                                                                                                                                                                                                                                                                                                                                                                },   
+
+                                                                                                                                                                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                                                                                                                                                                    "id":94,
+                                                                                                                                                                                                                                                                                                                                                                                     "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                                                                                                                      "nombre":"Union de sindicatos de la Ind. Maderera dela R.A. – USIMRA"
+                                                                                                                                                                                                                                                                                                                                                                                    },   
+
+                                                                                                                                                                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                                                                                                                                                                        "id":95,
+                                                                                                                                                                                                                                                                                                                                                                                         "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                                                                                                                          "nombre":"Union de Trabajadores de Entidades Deportivas y Civiles -UTEDYC"
+                                                                                                                                                                                                                                                                                                                                                                                        },   
+                                                                                                                                                                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                                                                                                                                                                            "id":96,
+                                                                                                                                                                                                                                                                                                                                                                                             "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                                                                                                                              "nombre":"Union del Personal Civil de las Fuerzas Armadas -PECIFA"
+                                                                                                                                                                                                                                                                                                                                                                                            },   
+
+                                                                                                                                                                                                                                                                                                                                                                                          {
+                                                                                                                                                                                                                                                                                                                                                                                            "id":97,
+                                                                                                                                                                                                                                                                                                                                                                                             "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                                                                                                                              "nombre":"Union Ferroviaria"
+                                                                                                                                                                                                                                                                                                                                                                                            },   
+                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                                                                                                                                                            "id":98,
+                                                                                                                                                                                                                                                                                                                                                                                             "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                                                                                                                              "nombre":"Union Obrera de la Construcción de la R.A. – UOCRA"
+                                                                                                                                                                                                                                                                                                                                                                                            },   
+    
+                                                                                                                                                                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                                                                                                                                                                "id":99,
+                                                                                                                                                                                                                                                                                                                                                                                                 "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                                                                                                                                  "nombre":"Union Obrera Metalurgica de la R.A. – Secc.Matanza"
+                                                                                                                                                                                                                                                                                                                                                                                                },   
+                                                                                                                                                                                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                                                                                                                                                                                    "id":100,
+                                                                                                                                                                                                                                                                                                                                                                                                     "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                                                                                                                                      "nombre":"UNION OBRERA METALURGICA UOM"
+                                                                                                                                                                                                                                                                                                                                                                                                    },   
+
+                                                                                                                                                                                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                                                                                                                                                                                        "id":101,
+                                                                                                                                                                                                                                                                                                                                                                                                         "tipo":"Mutual Nacional",
+                                                                                                                                                                                                                                                                                                                                                                                                          "nombre":"Union Trabajadores de Sociedades de Autores R.A."
+                                                                                                                                                                                                                                                                                                                                                                                                        },   
+
+                                                                                                                                                                                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                                                                                                                                                                                            "id":102,
+                                                                                                                                                                                                                                                                                                                                                                                                             "tipo":"Cobertura Directa",
+                                                                                                                                                                                                                                                                                                                                                                                                              "nombre":"Cooperativa Eléctrica de Godoy Cruz"
+                                                                                                                                                                                                                                                                                                                                                                                                            },   
+                                                                                                                                                                                                                                                                                                                                                                                                            {
+                                                                                                                                                                                                                                                                                                                                                                                                                "id":103,
+                                                                                                                                                                                                                                                                                                                                                                                                                 "tipo":"Cobertura Directa",
+                                                                                                                                                                                                                                                                                                                                                                                                                  "nombre":"Andes Pre-paga (Servicios de sepelio)"
+                                                                                                                                                                                                                                                                                                                                                                                                                },   
+
+                                                                                                                                                                                                                                                                                                                                                                                                                {
+                                                                                                                                                                                                                                                                                                                                                                                                                    "id":104,
+                                                                                                                                                                                                                                                                                                                                                                                                                     "tipo":"Cobertura Directa",
+                                                                                                                                                                                                                                                                                                                                                                                                                      "nombre":"Prevenir"
+                                                                                                                                                                                                                                                                                                                                                                                                                    },   
+
+                                                                                                                                                                                                                                                                                                                                                                                                                    {
+                                                                                                                                                                                                                                                                                                                                                                                                                        "id":105,
+                                                                                                                                                                                                                                                                                                                                                                                                                         "tipo":"Cobertura Directa",
+                                                                                                                                                                                                                                                                                                                                                                                                                          "nombre":"Supervielle (servicios para jubilados y pensionados)"
+                                                                                                                                                                                                                                                                                                                                                                                                                        },  
+                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                        {
+                                                                                                                                                                                                                                                                                                                                                                                                                            "id":106,
+                                                                                                                                                                                                                                                                                                                                                                                                                             "tipo":"Cobertura Directa",
+                                                                                                                                                                                                                                                                                                                                                                                                                              "nombre":"Pami: subsidio de fallecimiento a cuenta del servicio fúnebre que elijas como parte de pago."
+                                                                                                                                                                                                                                                                                                                                                                                                                            }  
+                
+                                                                                                    
+
+            
+
+
+
+
+
+
+]

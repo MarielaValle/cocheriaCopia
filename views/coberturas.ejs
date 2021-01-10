@@ -1,0 +1,57 @@
+<%- include('partials/head')%>
+<%- include('partials/header')%>
+
+<!------------------------------------------>
+
+
+<div class="container-fluid" id="margen-top">
+    <div class="row" id="resultadoC">
+        <div class="col-12">
+            <h2 class="">Resultados de la búsqueda: <%= search %></h2>
+        </div>
+        
+
+       
+        <% if(resultado.length != 0) { %>
+
+            
+
+            <% resultado.forEach(cobertura=> { %>
+
+                
+                <div class="col-12 col-lg-6">
+                    <p></p>
+                     <ul>
+
+                        <li><%=cobertura.tipo%> -<%=cobertura.nombre%> </li>
+                            
+                        
+
+                    </ul>
+                            
+                        
+               
+                 
+                </div>
+                <% }); %>
+                <% } else { %>
+                    <div class="col-12">
+                        <h2 class="products-title" style="color: tomato;">No hay coberturas que coincidan con esa búsqueda</h2>
+                    </div>
+                    <% } %>
+                </div>
+            </div>
+            
+            
+
+
+
+
+
+
+
+
+
+<!-------------------------------------------------------->
+
+<%- include("partials/footer")%>
