@@ -123,10 +123,33 @@ window.addEventListener("load", function () {
     } while (contador <= 1)
 
 
-
     
-
-
+    
+      
+            let whatsApp = document.querySelector(".fa-whatsapp");
+    
+         
+            whatsApp.addEventListener("mouseover", function () {
+    
+    
+              this.style.fontSize = "3em"
+    
+            })
+           
+            whatsApp.addEventListener("mouseout", function () {
+    
+    
+              this.style.fontSize = "2.5em"
+    
+          
+    
+            })
+    
+        
+       
+       
+  
+    
 
 })
 
