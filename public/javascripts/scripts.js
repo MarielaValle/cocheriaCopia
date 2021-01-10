@@ -111,7 +111,9 @@ window.addEventListener("load", function () {
                 let pregunta = confirm('¿Quieres conocer los planes Pre-Paga Los andes?');
 
                 if (pregunta == true) {
-                    location = 'http://localhost:3000/prepaga';
+                    location = 'https://cocheria-los-andes.herokuapp.com/prepaga'
+                    
+                               /* 'http://localhost:3000/prepaga';*/
                 } else {
 
                     alert('¡Ser precavido está en usted, y Andes está para usted!');
@@ -126,28 +128,7 @@ window.addEventListener("load", function () {
     
     
       
-            let whatsApp = document.querySelector(".fa-whatsapp");
-    
-         
-            whatsApp.addEventListener("mouseover", function () {
-    
-    
-              this.style.fontSize = "3em"
-    
-            })
-           
-            whatsApp.addEventListener("mouseout", function () {
-    
-    
-              this.style.fontSize = "2.5em"
-    
-          
-    
-            })
-    
-        
-       
-       
+            
   
     
 
