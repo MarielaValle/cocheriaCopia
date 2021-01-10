@@ -1,93 +1,131 @@
 <body>
 
-    <header>
-  
-  
-  
-  
-      <nav class="principal">
-        <!-- Navbar content ---style="background-color: #e3f2fd;-->
-  
-        <div class="navbar ">
-  
-  
-  
-          <span class='bienvenido'><i class="fas fa-door-open"></i>¡Bienvenid@!</span>
-  
-  
-  
+  <header>
+
+
+
+
+    <nav class="principal">
+      <!-- Navbar content ---style="background-color: #e3f2fd;-->
+
+      <div class="navbar ">
+
+
+
+        <span class='bienvenido'><i class="fas fa-door-open"></i>¡Bienvenid@!</span>
+
+
+
         <img src="/assets/logo2.png" alt="logo" class="logo">
-  
-           <!-- <img src="assets/logo.jpeg" alt="logo" class="logo">--->
 
-          <form action="obituarios/search"  method="GET">
-            <input class="borderSearch" type="search" placeholder="Registro de óbito por apellido" name="keyword">
-            <button type="submit" class="searchButton">Buscar <i class="fas fa-search"></i>
-            </button>
-          </form>
-  
-  
-        </div>
-  
-  
-  
-  
-        <div class="menu" id="menuLink">
-          <ul>
-  
-            <li><a href='/'><i class="fas fa-home"></i> Home</a></li>
-            <li><a href='/servicios'><i class="fab fa-servicestack"></i> Servicios</a></li>
-            <li><a href='/acercaDe'><i class="fas fa-address-card"></i> Acerca de nosotros</a></li>
-            <li><a href='/galeria'><i class="far fa-file-image"></i> Galeria</a></li>
-  
-  
-          </ul>
-  
-  
-  
-        </div>
-  
-        <div class="menu2" id="menuLink">
-          <div class="collapse" id="navbarToggleExternalContent">
-            <div class="bg-ligth p-4">
-              <h5 class="text-white h4">
-  
-                <ul>
-  
-                  <li><a href='/'><i class="fas fa-home"></i> Home</a></li>
-                  <li><a href='/servicios'><i class="fab fa-servicestack"></i> Servicios</a></li>
-                  <li><a href='/acercaDe'><i class="fas fa-address-card"></i> Acerca de nosotros</a></li>
-                  <li><a href='/galeria'><i class="far fa-file-image"></i> Galeria</a></li>
-        
-  
-  
-                </ul>
-  
-  
-              </h5>
-              <span class="text-muted"></span>
-            </div>
+        <!-- <img src="assets/logo.jpeg" alt="logo" class="logo">--->
+
+        <form action="obituarios/search" method="GET">
+          <input class="borderSearch" type="search" placeholder="Registro de óbito por apellido" name="keyword">
+          <button type="submit" class="searchButton">Buscar <i class="fas fa-search"></i>
+          </button>
+        </form>
+
+
+      </div>
+
+
+
+
+      <div class="menu" id="menuLink">
+        <ul>
+
+          <li><a href='/'><i class="fas fa-home"></i> Home</a></li>
+          <li><a href='/servicios'><i class="fab fa-servicestack"></i> Servicios</a></li>
+          <li><a href='/acercaDe'><i class="fas fa-address-card"></i> Acerca de nosotros</a></li>
+          <li><a href='/galeria'><i class="far fa-file-image"></i> Galeria</a></li>
+
+
+        </ul>
+
+
+
+      </div>
+
+      <div class="menu2" id="menuLink">
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="bg-ligth p-4">
+            <h5 class="text-white h4">
+
+              <ul>
+
+                <li><a href='/'><i class="fas fa-home"></i> Home</a></li>
+                <li><a href='/servicios'><i class="fab fa-servicestack"></i> Servicios</a></li>
+                <li><a href='/acercaDe'><i class="fas fa-address-card"></i> Acerca de nosotros</a></li>
+                <li><a href='/galeria'><i class="far fa-file-image"></i> Galeria</a></li>
+
+
+
+              </ul>
+
+
+            </h5>
+            <span class="text-muted"></span>
           </div>
-          <nav class="navbar navbar-dark bg-ligth">
-            <!---era bg-dark-  y con navbar-toggler en siguiente renglón camibio color boton---->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
-              aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span> <i class="fas fa-bars"></i></span>
-              <!--<span class="navbar-toggler-icon"></span>--->
-            </button>
-          </nav>
         </div>
-  
-      </nav>
-  
-      <section class="contacto">
+        <nav class="navbar navbar-dark bg-ligth">
+          <!---era bg-dark-  y con navbar-toggler en siguiente renglón camibio color boton---->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span> <i class="fas fa-bars"></i></span>
+            <!--<span class="navbar-toggler-icon"></span>--->
+          </button>
+        </nav>
+      </div>
 
-        <span><i class="fab fa-whatsapp"></i></span><br><br>
+    </nav>
+
+    <section class="contacto">
+
+      <a
+        href="https://api.whatsapp.com/send?phone=5492615985582&text=Quisiera%20informaci%C3%B3n%20sobre%20el%20servicio%20f%C3%BAnebre%20-%20la%20prepaga...(tachar%20lo%20que%20no%20corresponda)  ">
+        <span><i class="fab fa-whatsapp"></i></span>
+      </a>
+      <br><br>
+
+      <script>
+window.addEventListener("load", function () {
+
   
-        <span><i class="fas fa-share-alt"></i></span>
-  
-      </section>
-    </header>
-  
-  
-  
+        let whatsApp = document.querySelector(".fa-whatsapp");
+
+
+        whatsApp.addEventListener("mouseover", function () {
+
+
+          this.style.fontSize = "2.3em"
+
+
+
+        })
+       
+        whatsApp.addEventListener("mouseout", function () {
+
+
+          this.style.fontSize = "1.8em"
+
+      
+
+        })
+
+      })
+
+      </script>
+<!---
+      <a href="https://www.facebook.com/" >
+        <span><i class="fas fa-share-alt"id='compartir'></i></span></a>
+
+
+
+      ---->
+
+    </section>
+
+
+
+  </header>

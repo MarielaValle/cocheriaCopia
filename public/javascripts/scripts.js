@@ -100,14 +100,14 @@ window.addEventListener("load", function () {
 
     let Obituarios = document.querySelector('.tituloO');
 
-   
 
-   
-        let contador = 1;
-        do {
-            Obituarios.addEventListener('mouseout', function () {
 
-                setTimeout (function() {
+
+    let contador = 1;
+    do {
+        Obituarios.addEventListener('mouseout', function () {
+
+            setTimeout(function () {
                 let pregunta = confirm('¿Quieres conocer los planes Pre-Paga Los andes?');
 
                 if (pregunta == true) {
@@ -117,19 +117,17 @@ window.addEventListener("load", function () {
                     alert('¡Ser precavido está en usted, y Andes está para usted!');
 
                 }
-            },7500)
-            })
-            contador++;
-        } while (contador <= 1)
-       
+            }, 7500)
+        })
+        contador++;
+    } while (contador <= 1)
 
 
-var myCarousel = document.querySelector('#carouselExampleSlidesOnly')
-var carousel = new bootstrap.Carousel(myCarousel)
 
-      //$('.carousel').carousel();
     
-   
+
+
+
 })
 
 
