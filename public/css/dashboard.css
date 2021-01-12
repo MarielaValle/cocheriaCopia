@@ -1,0 +1,147 @@
+
+
+
+
+
+
+/*-------------------------------------------*/
+.carritoTitulo{
+    
+    margin-top:200px;
+    
+    margin-left:40px;
+
+    display:flex;
+
+    justify-content: space-around;
+    
+}
+
+.box-carrito{
+    
+    
+    display:flex;
+    
+    margin:10px
+    
+    
+    
+}
+
+
+.carrito-left{
+    
+    
+    margin:10px;
+    
+    width: 60%;
+    
+    border:solid;
+    
+    border-color:#034001;
+
+    height: 90vh;
+    
+    overflow: scroll;
+
+    
+}
+
+#pedidoT{
+    
+   display: flex;
+   padding: 10px 15px 5px 20px;
+    
+    margin-top: 0px;
+    margin-bottom: 20px;
+  
+    background-color:rgb(3, 64, 1, 0.5);
+    color:white;
+}
+
+
+#pedido{
+    
+    display: flex;
+    
+    justify-content: flex-start;
+    border-bottom: solid;
+    border-bottom-color:rgb(3, 64, 1, 0.5);
+    margin-bottom: 30px;
+    margin-top:70px;
+    padding:5px;
+}
+
+.itemImage{
+    
+    width: 40%;
+    
+}
+.nombreV{
+    
+    font-size:0.7em;
+    text-align: center;
+    
+}
+.carrito-left span{
+    
+    width:20%;
+    
+    
+}
+.carrito-left span form{
+    
+    width:20%;
+    
+}
+.cantidad{
+    width:20%;
+    
+    
+    
+}
+.cantidad input{
+    
+    width: 50%
+    
+}
+.cantidad button{
+    
+    margin-top: 5px;
+    
+}
+
+.carrito-right{
+    
+    width:40%;
+   
+    margin:10px;
+    padding:30px;
+    
+    border:solid;
+    border-color:#034001;
+    text-align: center;
+    font-size: 1.2em;
+    
+}
+
+
+
+.carrito-right button{
+
+    font-size: 1em
+}
+
+.resumenP{
+    
+    margin:20px;
+    padding:30px;
+    text-align: center;
+    border:solid;
+    border-color:#034001;
+    
+}
+
+.resumenP button{
+    font-size: 1.5em;
+}

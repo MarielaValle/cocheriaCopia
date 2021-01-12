@@ -1,0 +1,144 @@
+<%- include('partials/head')%>
+    <%- include('partials/header')%>
+
+        <!------------------------------------------>
+
+
+        <!------------------------------------------------------------>
+
+        <div class="carritoTitulo">
+            <h3>Dashboard <i class="fas fa-chart-line"></i> </h3> <h3>Agregar óbito</h3>
+        </div>
+
+        <!------------------------Pedifacil------------------------------------->
+
+
+        <div class="box-carrito">
+
+
+            <div class="carrito-left" id="lista">
+
+
+
+
+                <div id="pedidoT">
+
+                    <span>Canva</span>
+                    <span>Nombre </span>
+                    <span>Apellido</span>
+                    <span>Fecha</span>
+                    <span>Editar</span>
+                    <span>Eliminar</span>
+
+                </div>
+
+
+
+                <% obituarios.forEach(obito=> { %>
+                    <div id="pedido">
+
+
+                        <span class="nombreV">
+                            <img class="itemImage" src="<%=obito.imagen%> " alt="Canva recordatoria">
+                            <br>
+
+                        </span>
+
+
+                        <span style="margin-left:px">
+                            <%= obito.nombre %>
+                        </span>
+
+
+
+                        <!---------------------------------------->
+
+
+                        <span>
+
+
+                            <%= obito.apellido %>
+
+                        </span>
+
+
+
+                        <span>
+
+
+                            <%= obito.fecha%>
+
+                        </span>
+                        <!------------------------------------------------>
+
+                        <span><form class="cart-item_delete" action=" " method="POST">
+                            <button type="submit"><i class="fas fa-edit"></i></button></form></span>
+
+
+                            <span>
+                        <form class="cart-item_delete" action=" " method="POST">
+                            <button type="submit">
+                                <i class="fas fa-trash-alt"></i></button></form>
+                                </span>
+
+                    </div>
+                    <%})%>
+
+            </div>
+
+
+           
+
+            <div class="carrito-right">
+
+              
+               
+
+
+                <form action="/dashboard " method="POST">
+
+
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="exampleInputEmail1" name="nombre">
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Apellido</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1" name="apellido">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Fecha</label>
+                        <input type="date" class="form-control" id="exampleInputPassword1" name="fecha">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Imagen (Canva)</label>
+                        <input type="text" class="form-control" id="exampleInputPassword1" name="imagen">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Agregar</button>
+                </form>
+
+
+
+
+            </div>
+
+            <!-----------------fin row-->
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-------------------------------------------------------->
+
+        <%- include("partials/footer")%>

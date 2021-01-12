@@ -1,7 +1,7 @@
 
 
-let acercaDeController={
 
+let acercaDeController={
 
     raiz:(req, res, next)=> {
             res.render('acercaDe');
