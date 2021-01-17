@@ -1,0 +1,39 @@
+<div class="forms">
+
+
+
+
+
+    <form action="/dashboard/update/<%=obitoEdit.id%>?_method=PUT" method="POST">
+
+
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" name="nombre"
+                value="<%=obitoEdit.nombre%>">
+
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="exampleInputPassword1" name="apellido"
+                value="<%=obitoEdit.apellido%>">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Fecha</label>
+            <input type="date" class="form-control" id="exampleInputPassword1" name="fecha"
+                value="<%=obitoEdit.fecha%>">
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Imagen (Canva)</label>
+            <input type="text" class="form-control" id="exampleInputPassword1" name="imagen"
+                value="<%=obitoEdit.imagen%>">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+
+
+
+
+</div>

@@ -1,0 +1,69 @@
+<%- include("partials/head")%>
+    <%- include("partials/header")%>
+        <!------------------------------------------------------------>
+
+        <div class="row" id='obituarioForm'>
+
+
+
+
+            <div class="col-12 col-md-4 text-center pt-5 pb-5">
+
+                <div class="alert">
+                    <% if (typeof data.mensajeA !="undefined" ) { %>
+
+                        <%= data.mensajeA %>
+
+                            <% } %>
+                </div>
+
+
+                <!---------------------------------------------------->
+                <div class='exito'>
+                    <% if (typeof data.mensajeE !="undefined" ) { %>
+
+                        <%= data.mensajeE %>
+
+                            <% } %>
+                </div>
+
+
+
+
+
+                <!----------------Login------------------------------->
+
+                <% if(data.Formulario=='Login' ){ %>
+
+                    <%- include("/forms/login")%>
+
+                        <% } %>
+
+                            <!---------------------------------------------------->
+
+
+                            <!------------------obituarioEdit------------------------------------->
+                            <% if(data.Formulario=='ObituarioEdit' ){ %>
+
+                                <%- include("./forms/obituarioEdit")%>
+
+                                    <% } %>
+                                        <!--------------------------------------------------------------------->
+
+
+
+
+                                        <!-----------------------obituarioEliminar----------------------------->
+
+                                        <% if(data.Formulario=='ObituarioEliminar' ){ %>
+
+                                            <%- include("./forms/obituarioEliminar")%>
+
+                                                <% } %>
+
+                                                    <!---------------------------------------------------------------------->
+            </div>
+        </div>
+
+        <!---------------------------------------------------->
+        <%- include("partials/footer")%>
