@@ -14,6 +14,8 @@ dia nueve -> 4hs, hago despliegue en heroku (me atrasé un poco por inexperincia
 dia 10 -> 7hs
 día 11 -> 7hs
 
+4 días -> 5 hs (20hs)
+
 
 
 
