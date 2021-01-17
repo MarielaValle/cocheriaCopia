@@ -113,7 +113,9 @@ let dashboardController = {
 
 		res.redirect('/dashboard');
 
-    }
+    },
+
+   
 
 }
 

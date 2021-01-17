@@ -1,19 +1,19 @@
 var express = require('express');
 var router = express.Router();
 
-
+const loggedUser = require("../middleware/loggedUser");
 
 const dashboardController= require('../controllers/dashboardController')
 
 /* GET home page. */
-router.get('/', dashboardController.raiz);
+router.get('/',loggedUser, dashboardController.raiz);
 
-router.post('/',dashboardController.crear);
+router.post('/',loggedUser,dashboardController.crear);
 
 
-router.get('/edit/:id',dashboardController.edit);
+router.get('/edit/:id',loggedUser,dashboardController.edit);
 
-router.post('/update/:id',dashboardController.update);
+router.post('/update/:id',loggedUser,dashboardController.update);
 
 
 router.get('/eliminar/:id',dashboardController.eliminar);
