@@ -87,41 +87,51 @@
         <span><i class="fab fa-whatsapp"></i></span>
       </a>
       <br><br>
-<script>
+      <% if ( typeof userLogged != 'undefined' ) { %>
 
-let whatsApp = document.querySelector(".fa-whatsapp");
-    
-         setInterval(function(){
-            whatsApp.addEventListener("mouseover", function () {
-    
-    
-              this.style.fontSize = "3em"
-    
-            })
-           
-           whatsApp.addEventListener("mouseout", function () {
-    
-    
-              this.style.fontSize = "2.5em"
-    
-          
-    
-            })
-    
-          },1000)
-       
-       
+        <a href="/logout" style='font-size: 2em;'> <i class="fas fa-sign-out-alt"></i></a> <br>
+        <a href="/dashboard" style='font-size: 2em;'><i class="fas fa-chart-line"></i></a>
+
+        <% } %>
 
 
-</script>
-     
-<!---
+
+      <script>
+
+        let whatsApp = document.querySelector(".fa-whatsapp");
+
+        setInterval(function () {
+          whatsApp.addEventListener("mouseover", function () {
+
+
+            this.style.fontSize = "3em"
+
+          })
+
+          whatsApp.addEventListener("mouseout", function () {
+
+
+            this.style.fontSize = "2.5em"
+
+
+
+          })
+
+        }, 1000)
+
+
+
+
+      </script>
+
+      <!---
       <a href="https://www.facebook.com/" >
         <span><i class="fas fa-share-alt"id='compartir'></i></span></a>
 
 
 
       ---->
+     
 
     </section>
 

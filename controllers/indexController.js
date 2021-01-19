@@ -81,7 +81,8 @@ let indexController = {
                       
 
                       req.session.user=nombre
-                      let userLogged= req.session.user
+
+                       userLogged= req.session.user
 
                       console.log(userLogged)
                
