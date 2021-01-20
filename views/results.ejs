@@ -78,16 +78,16 @@
                 <% if(results.length != 0) { %>
                 
 
-                <% results.forEach(results=> { %>
+                <% results.forEach(result=> { %>
                 <div class=" col-12 col-sm-6 col-lg-3">
 
-                    <a href="/obituarios/detalle/<%=results.id%>">
+                    <a href="/obituarios/detalle/<%=result.id%>">
 
                         <section>
 
                             <figure>
 
-                                <img src="/assets/obitos/<%=results.imagen%>" alt="fotos obituarios">
+                                <img src="/assets/obitos/<%=result.imagen%>" alt="fotos obituarios">
 
 
                             </figure>
